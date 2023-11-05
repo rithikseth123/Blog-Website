@@ -1,0 +1,104 @@
+/* post.css */
+
+.blogify {
+    color: peru;
+}
+
+.posta {
+    text-decoration: none;
+}
+
+.posta:hover {
+    color: blueviolet;
+}
+
+.latestposta:hover {
+    text-decoration: none;
+    color: peru;
+}
+
+.latestposta {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #343a40;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* Change to your desired font family */
+    font-size: 20px;
+    /* Change to your desired font size */
+    font-weight: bold;
+    /* Change to your desired font weight */
+    /* font-style: italic; */
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    background-color: #343a40;
+    /* border-radius: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px auto;
+    cursor: pointer;
+}
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post :hover {
+    color: peru;
+}
+
+.post {
+    text-decoration: none;
+    background-color: #343a40;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+
+.title {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    /* Change to your desired font family */
+    font-size: 20px;
+    /* Change to your desired font size */
+    font-weight: bold;
+    /* Change to your desired font weight */
+    /* font-style: italic; */
+    color: white;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.author {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    /* Change to your desired font family */
+    font-size: 20px;
+    /* Change to your desired font size */
+    font-weight: bold;
+    /* Change to your desired font weight */
+    font-style: italic;
+    color: white;
+}
+
+.author:hover {
+    color: peru;
+}
+
+.post-image {
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}

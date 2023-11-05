@@ -1,0 +1,39 @@
+/* blog.css */
+
+.blog-post {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+.blog-image {
+    width: 30%;
+    /* Set the image width to 100% of its container */
+    /* max-width: 50%; */
+    /* Set the maximum width to prevent upscaling */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.blog-title {
+    color: peru;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.blog-info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    font-size: 16px;
+    line-height: 1.6;
+}

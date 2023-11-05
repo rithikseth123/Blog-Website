@@ -1,0 +1,40 @@
+/* author.css */
+
+.authora {
+    text-decoration: none;
+}
+
+.author-posts {
+    margin: 20px;
+    padding: 20px;
+    background-color: #343a40;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-author {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    /* Change to your desired font family */
+    font-size: 20px;
+    /* Change to your desired font size */
+    font-weight: bold;
+    /* Change to your desired font weight */
+    /* font-style: italic; */
+    color: #343a40;
+    text-align: center;
+}
+
+.post-author:hover {
+    background-color: peru;
+}
+
+
+/* Add more styles as needed */

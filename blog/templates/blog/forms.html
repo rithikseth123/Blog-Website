@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    Create Blog
+{% endblock title %}
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'blog/form_styles.css' %}">
+{% endblock css_files %}
+{% block content %}
+    <form class="post-form"
+          id="create-post-form"
+          method="POST"
+          action="{% url "create-post" %}"
+          enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="submit-button">Submit</button>
+    </form>
+{% endblock content %}

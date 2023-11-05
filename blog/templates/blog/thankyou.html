@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    Thank you
+{% endblock title %}
+{% block content %}
+    <div style="height:100px;background-color:white;"></div>
+    <div style="font-size: 60px;
+                color: #007bff;
+                text-align: center;
+                background-color: white;
+                {% comment %} border-radius: 10%;
+                {% endcomment %} height:370px;
+                padding: 20px">{{ message }}</div>
+    <div style="height:100px;background-color:white;"></div>
+    <footer class="footer"
+            style="color: white;
+                   text-align: center;
+                   background-color: #343a40;
+                   /* border-radius: 10px;
+                   */ border: 1px solid #ccc;
+                   {% comment %} border-radius: 4px;
+                   {% endcomment %} margin-bottom: 10px auto;
+                   height:50px">
+        This is the Official Site Of <a style=" color: peru; " href="{% url "main-page" %}">&#169;Blogify</a>
+    </footer>
+{% endblock content %}

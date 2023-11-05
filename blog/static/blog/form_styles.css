@@ -1,0 +1,27 @@
+/* form_styles.css */
+
+.post-form {
+    align-items: center;
+    color: white;
+    margin: 20px auto;
+    /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #343a40;
+    max-width: 600px;
+    /* Optionally set a max width */
+}
+
+.submit-button {
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: red;
+}

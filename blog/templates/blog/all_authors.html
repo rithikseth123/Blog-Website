@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    {{ post.author }}
+{% endblock title %}
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'blog/author.css' %}">
+{% endblock css_files %}
+{% block content %}
+    <div class="author-posts">
+        {% for post in posts %}
+            <ul>
+                <a href="{% url "author-post" post.author %}" class="authora">
+                    <li class="post-author" id="post-{{ post.id }}">{{ post.author }}</li>
+                </a>
+            </ul>
+        {% endfor %}
+    </div>
+{% endblock content %}
